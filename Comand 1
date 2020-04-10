@@ -1,17 +1,23 @@
 #include <iostream>
 #include <math.h>
 using namespace std;
+
+float sumDegrees(float a, float b, float c)
+{
+  return pow(a,3)+pow(b,3)+pow(c,3);  
+}
+
 int main() {
-cout<<"Приветствую вас в программе команды под номером 1.\n";
+  cout<<"Приветствую вас в программе команды под номером 1.\n";
   float a,b,c;
   cout<< "Сейчас вы должны ввести цифры от 0 до N-го числа:\n";
   cout<<"Введите А\n";
   cin>>a;
-   cout<<"Введите B\n";
+  cout<<"Введите B\n";
   cin>>b;
-   cout<<"Введите C\n";
+  cout<<"Введите C\n";
   cin>>c;
   cout<<"Программа проводит вычисления, надо подождать.\n";
-  int d = pow(a,3)+pow(b,3)+pow(c,3);
+  float d = sumDegrees(a,b,c);
   cout<<"Вот ответ: "<<d;
 }
