@@ -2,13 +2,16 @@
 #include <math.h>
 using namespace std;
 int main() {
+cout<<"Приветствую вас в программе команды под номером 1.\n";
   float a,b,c;
+  cout<< "Сейчас вы должны ввести цифры от 0 до N-го числа:\n";
   cout<<"Введите А\n";
   cin>>a;
    cout<<"Введите B\n";
   cin>>b;
    cout<<"Введите C\n";
   cin>>c;
+  cout<<"Программа проводит вычисления, надо подождать.\n";
   int d = pow(a,3)+pow(b,3)+pow(c,3);
-  cout<<"D = "<<d;
+  cout<<"Вот ответ: "<<d;
 }
