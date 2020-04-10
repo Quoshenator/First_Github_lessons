@@ -1,0 +1,16 @@
+#include <iostream>
+#include <math.h>
+using namespace std;
+
+int main() {
+  int a=0;
+  int b=0;
+  int x=0;
+  cin>>a;
+  cin>>b;
+  for (int i=a; i<=b; i++)
+  {
+    cout <<pow(i,3)<<" ";
+
+  }
+}
