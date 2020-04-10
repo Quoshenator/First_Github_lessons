@@ -4,3 +4,4 @@ Lesson for students
 
 Перейдите в файл Lesson.md и узнайте своё первое задание.
 [![Run on Repl.it](https://repl.it/badge/github/Quoshenator/First_Github_lessons)](https://repl.it/github/Quoshenator/First_Github_lessons)
+[![Run on Repl.it](https://repl.it/badge/github/Quoshenator/First_Github_lessons)](https://repl.it/github/Quoshenator/First_Github_lessons)
