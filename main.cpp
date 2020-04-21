@@ -13,7 +13,9 @@ float sum(float a, float b, float c, float d){
 
 int main() {
   float a,b,c,d;
-  cin >> a >> b >> c >> d; // вводим три числа, и потом степень
+  cout << "Введите три числа"
+  cin >> a >> b >> c; // вводим три числа, и потом степень
+  cout << "Введите степень, в которую будет возведение"
+  cin >> d; 
   cout <<sum(a,b,c,d); 
 }
-
