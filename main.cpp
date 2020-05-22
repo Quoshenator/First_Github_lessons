@@ -4,18 +4,18 @@ using namespace std;
 loat x,y,z,s,t;
 float sumDegrees(int n)
 {
-//Команда 1
+//Заглушка для команды 1
 }
 
 float sum(float a, float b, float c, float d)
 {
-//Команда 2
+//Заглушка для команды 2
 }
 
 
 int operations()
 {
-
+//Заглушка для команды 3
 }
 
 int main() {
