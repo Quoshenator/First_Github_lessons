@@ -1,8 +1,4 @@
 #include <iostream>
-<<<<<<< HEAD
-using namespace std;
-float x,y,z,t,s;
-=======
 #include <math.h>
 using namespace std;
 loat x,y,z,s,t;
