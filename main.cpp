@@ -20,8 +20,6 @@ float useFunctions()//Общая функция
 {
 
 }
-
-
 int main() {
 
 }
