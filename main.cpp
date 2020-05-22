@@ -22,4 +22,3 @@ float sumDegrees(int n)
 int main() {
 
 }
-© 2020 GitHub, Inc.
