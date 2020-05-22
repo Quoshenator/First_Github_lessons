@@ -1,21 +1,23 @@
+#include <cstdlib>
 #include <iostream>
-#include <vector>
+#include <conio.h>
 #include <cmath>
 
 using namespace std;
+int main()
+{
+  int 1, int 2, int 3, sum, ex;
+  
+printf("1: ");
+cin >> 1;
+printf("2: ");
+cin >> 2;
+printf("3: ");
+cin >> 3;
 
-float sum(float a, float b, float c, float d){
-  //тут вычисления (сумма 3 чисел произвольной степени)
-  float e = 0;
-  e = pow(a+b+c,d);
-  return e;
-}
+sum=int 1+int 2+int 3;
+cout << sum;
 
-int main() {
-  float a,b,c,d;
-  cout << "Введите три числа";
-  cin >> a >> b >> c; // вводим три числа, и потом степень
-  cout << "Введите степень, в которую будет возведение";
-  cin >> d; 
-  cout <<sum(a,b,c,d); 
+getch();
+return 0;
 }
