@@ -1,0 +1,14 @@
+#include <iostream>
+#include <math.h>
+using namespace std;
+int main() {
+  int a,b,c;
+  cout<<"Введите А\n";
+  cin>>a;
+   cout<<"Введите B\n";
+  cin>>b;
+   cout<<"Введите C\n";
+  cin>>c;
+  int d = pow(a,3)+pow(b,3)+pow(c,3);
+  cout<<"D = "<<d;
+}
