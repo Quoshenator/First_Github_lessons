@@ -4,7 +4,7 @@
 
 using namespace std;
 
-float x,y,z,t,s;
+float x,y,z,s,t;
 int operations()
 {
 if (t==2)
