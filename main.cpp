@@ -2,10 +2,6 @@
 #include <math.h>
 using namespace std;
 
-float sum(float a, float b, float c, float d){
-
-}
-
 float sumDegrees(int n)
 {
   float d = 0;
