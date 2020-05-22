@@ -1,21 +1,22 @@
 #include <iostream>
 #include <math.h>
 using namespace std;
+float x,y,z,t,s;
 
-float sumDegrees(int n)
+float sum(float a, float b, float c, float d){
+  //тут вычисления (сумма 3 чисел произвольной степени)
+}
+
+int operations()
 {
-  float d = 0;
-  int count = 1;
-  float a;
-  while(n>0)
-  {
-      cout<<"Введите "<<count<<"-е число\n";
-      cin>>a;
-      d+=pow(a,3);
-      n--;
-      count++;
-  }
-  return d;
+}
+
+float useFunctions()//Общая функция
+=======
+float sumDegrees(int n)
+
+{
+
 }
 
 
